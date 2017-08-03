@@ -1,4 +1,4 @@
-`dircolors -p > ~/.dir_colors`
+dircolors -p > ~/.dir_colors
 
 
 # set the TERM variable to a color-enabled type (xterm-color)
