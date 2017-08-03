@@ -1,2 +1,2 @@
 # configs
-random confis
+random configs
