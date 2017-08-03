@@ -1,0 +1,15 @@
+`dircolors -p > ~/.dir_colors`
+
+
+# set the TERM variable to a color-enabled type (xterm-color)
+export TERM="xterm-color"
+
+# source my own .dir_colors file
+if [ -f $HOME/.dir_colors ]
+then
+   eval `dircolors -b $HOME/.dir_colors`
+fi
+
+
+- DIR 01;34
++ DIR 00;36 # directories are cyan and non-bold
